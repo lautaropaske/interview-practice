@@ -21,6 +21,12 @@ export default function Home() {
         </li>
       ))}
       </ol>
+      <h1> React Solutions </h1>
+      <ol>
+        <li key='file-tree-viewer' style={{ margin: '10px' }}>
+          <Link href={`/solutions/file-tree-viewer`}>file-tree-viewer</Link>
+        </li>
+      </ol>
     </div>
   )
 }
