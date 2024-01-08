@@ -21,6 +21,12 @@ export default function Home() {
         </li>
       ))}
       </ol>
+      <h1> React Solutions </h1>
+      <ol>
+        <li key='hooks' style={{ margin: '10px' }}>
+          <Link href='/solutions/hooks'>hooks</Link>
+        </li>
+      </ol>
     </div>
   )
 }
